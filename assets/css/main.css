@@ -24,6 +24,11 @@
 		color: firebrick;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	}
+	
+	#header:hover .red,
+	.red:hover {
+		text-shadow: -1px 0 #18bfef, 0 1px #18bfef, 1px 0 #18bfef, 0 -1px #18bfef !important;
+	}
 
 	ol, ul {
 		list-style: none;
