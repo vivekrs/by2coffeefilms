@@ -3563,6 +3563,29 @@
 
 		}
 
+		/* Award */
+		.movie {
+			display: inline-block;
+			width: 300px;
+			text-align: center;
+			font-size: 14px;
+			font-weight: bold;
+			margin: 1rem;
+		}
+
+		.award {
+			background-image: url('../../images/award.svg');
+			background-size: 300px 164px;
+			font-weight: normal;
+			margin: auto;
+			padding: 0 40px;
+			width: 300px;
+			height: 164px;
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+		}
+
 /* Main */
 
 	#main {
