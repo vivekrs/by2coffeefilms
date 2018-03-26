@@ -2500,7 +2500,7 @@ ul.actions {
 
 ul.actions li {
 	display: inline-block;
-	padding: 0 1rem 0 0;
+	padding: 0.5rem;
 	vertical-align: middle;
 }
 
