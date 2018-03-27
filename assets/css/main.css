@@ -3479,6 +3479,11 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 	}
 }
 
+/* Marquee */
+.marquee {
+	overflow: hidden;
+}
+
 /* Award */
 
 .movie {
