@@ -2933,6 +2933,10 @@ table.alt tbody tr td {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	background-image: url("../../images/bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 #wrapper>.bg {
@@ -3335,7 +3339,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 	-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 	-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 	transition: transform 1s ease, opacity 1s ease;
-	background: rgba(255, 255, 255, 0.175);
+	background: rgba(0, 0, 0, 0.175);
 	height: 4rem;
 	line-height: 4rem;
 	margin: -4rem auto 0 auto;
@@ -3480,6 +3484,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 }
 
 /* Marquee */
+
 .marquee {
 	overflow: hidden;
 }
@@ -3554,7 +3559,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 /* Main */
 
 #main {
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.9);
 	position: relative;
 	margin: 0 auto;
 	width: calc(100% - 4rem);
