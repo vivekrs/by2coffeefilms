@@ -3554,14 +3554,17 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 .person-photo {
 	width: 100%;
 	padding: 1em;
+	border-radius: 150px;
 	border-radius: 50%;
 	-webkit-filter: grayscale(95%);
-	filter: grayscale(95%)
+	-ms-filter: grayscale(95%);
+	filter: grayscale(95%);
 }
 
 .person-photo:hover {
 	-webkit-filter: grayscale(30%);
-	filter: grayscale(30%)
+	-ms-filter: grayscale(30%);
+	filter: grayscale(30%);
 }
 
 /* Main */
