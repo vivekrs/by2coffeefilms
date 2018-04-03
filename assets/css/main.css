@@ -3493,13 +3493,19 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 
 /* Award */
 
-.movie {
+.movie {	
+	display: inline-block;
 	display: inline-grid;
 	width: 150px;
 	text-align: center;
 	font-size: 8px;
 	font-weight: bold;
 	margin: 0.5rem;
+}
+
+.movie > * {
+	display: table-row;
+	text-align: center;
 }
 
 .award {
