@@ -3494,7 +3494,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 /* Award */
 
 .movie {
-	display: inline-block;
+	display: inline-grid;
 	width: 150px;
 	text-align: center;
 	font-size: 8px;
