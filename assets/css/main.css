@@ -2992,7 +2992,7 @@ body.is-loading #wrapper.fade-in:before {
 
 @media screen and (orientation: portrait) {
 	#wrapper>.bg {
-		background-size: auto, auto, auto 175%;
+		background-size: cover;
 	}
 }
 
@@ -3743,19 +3743,24 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 /* Footer */
 
 #footer {
-	color: #717981;
+	background-image: url("/images/graypattern.jpg");
+	background-size: cover;
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
 	background-color: #f5f5f5;
-	color: #909498;
+	/*color: #909498;*/
 	cursor: default;
 	position: relative;
 	margin: 0 auto;
 	width: calc(100% - 4rem);
 	max-width: 72rem;
 	z-index: 2;
+}
+
+#footer * {
+	color: white!important; /* #717981; */
 }
 
 #footer input,
@@ -4000,7 +4005,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 	-ms-flex-shrink: 1;
 	flex-shrink: 1;
 	padding: 4rem 4rem 2rem 4rem;
-	border-left: solid 2px #e2e2e2;
+	/*border-left: solid 2px #e2e2e2;*/
 }
 
 #footer>section:first-child {
@@ -4021,7 +4026,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 
 #footer>section.split>section {
 	padding: 3rem 4rem 1rem 4rem;
-	border-top: solid 2px #e2e2e2;
+	/*border-top: solid 2px #e2e2e2;*/
 }
 
 #footer>section.split>section:first-child {
