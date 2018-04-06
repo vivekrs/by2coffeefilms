@@ -3594,7 +3594,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 }
 
 #main>.post {
-	padding: 8rem 8rem 6rem 8rem;
+	padding: 4rem 8rem;
 }
 
 #main>.post header.major>.date {
@@ -3614,7 +3614,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 
 @media screen and (max-width: 1280px) {
 	#main>.post {
-		padding: 6rem 4rem 4rem 4rem;
+		padding: 2rem 8rem;
 	}
 }
 
@@ -3668,7 +3668,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 }
 
 #main>.posts>* {
-	padding: 4rem;
+	padding: 2rem 4rem;
 	width: 50%;
 }
 
