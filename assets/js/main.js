@@ -119,11 +119,13 @@
 				$body.removeClass('is-loading');
 
 				// Marquee animations
-				$('.marquee').marquee({
-					duration: 20000,
-					pauseOnHover: true,
-					duplicated: true
-				});
+				$marquee = $('.marquee')
+				if ($marquee && $marquee.marquee)
+					$marquee.marquee({
+						duration: 20000,
+						pauseOnHover: true,
+						duplicated: true
+					});
 			}, 100);
 		});
 

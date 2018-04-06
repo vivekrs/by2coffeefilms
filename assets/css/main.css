@@ -3594,7 +3594,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 }
 
 #main>.post {
-	padding: 4rem 8rem;
+	padding: 4rem 8rem 2rem 8rem;
 }
 
 #main>.post header.major>.date {
