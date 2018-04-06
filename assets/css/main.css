@@ -3489,6 +3489,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 
 .marquee {
 	overflow: hidden;
+	white-space: nowrap;
 }
 
 /* Award */
