@@ -3552,6 +3552,14 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 	margin: auto;
 }
 
+.producer {
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+	margin: auto;
+	list-style-type: none;
+}
+
 .person-photo {
 	width: 100%;
 	padding: 1em;
