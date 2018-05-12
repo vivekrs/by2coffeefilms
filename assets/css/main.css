@@ -3558,6 +3558,7 @@ body.is-loading #intro:not(.hidden)+#header+#nav {
 	text-align: center;
 	margin: auto;
 	list-style-type: none;
+	white-space: nowrap;
 }
 
 .person-photo {
