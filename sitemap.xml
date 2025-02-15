@@ -1,48 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
             
 <url>
-  <loc>http://www.by2coffeefilms.com/</loc>
+  <loc>https://www.by2coffeefilms.org/</loc>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.by2coffeefilms.com/index.html</loc>
+  <loc>https://www.by2coffeefilms.org/index.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.by2coffeefilms.com/our-work/our-work.html</loc>
+  <loc>https://www.by2coffeefilms.org/our-work/our-work.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.by2coffeefilms.com/reviews/reviews.html</loc>
+  <loc>https://www.by2coffeefilms.org/team/about.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.by2coffeefilms.com/team/about.html</loc>
+  <loc>https://www.by2coffeefilms.org/blog/awards/awards.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.by2coffeefilms.com/blog/awards/awards.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.by2coffeefilms.com/blog/sound-sleep/indiegogo.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.by2coffeefilms.com/our-work/our-work-2013-15.html</loc>
+  <loc>https://www.by2coffeefilms.org/our-work/our-work-2013-15.html</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.by2coffeefilms.com/our-work/our-work-2011-12.html</loc>
+  <loc>https://www.by2coffeefilms.org/our-work/our-work-2011-12.html</loc>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.by2coffeefilms.com/our-work/our-work-2010.html</loc>
+  <loc>https://www.by2coffeefilms.org/our-work/our-work-2010.html</loc>
   <priority>0.64</priority>
 </url>
 </urlset>
